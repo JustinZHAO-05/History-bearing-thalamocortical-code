@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-11T10:11:07.055570+00:00",
+  "data_record": "https://zenodo.org/records/19465617",
+  "paper_doi": "10.1016/j.neuron.2026.04.045",
+  "data_license": {
+    "id": "cc-by-4.0"
+  },
+  "files": [
+    {
+      "file": "Figure_1.zip",
+      "source_url": "https://zenodo.org/records/19465617/files/Figure%201.zip?download=1",
+      "bytes": 1509342,
+      "sha256": "a5b8dacd14d78e410eb141db717838e4431bb7ea6e761d2d63b61a448fe7229a",
+      "md5": "5f260028657657826def9aa9c1ffe068",
+      "zenodo_checksum": "md5:5f260028657657826def9aa9c1ffe068",
+      "checksum_matches": true
+    },
+    {
+      "file": "Figure_4.zip",
+      "source_url": "https://zenodo.org/records/19465617/files/Figure%204.zip?download=1",
+      "bytes": 2071055,
+      "sha256": "0e56adb8f740b376c4a1b060b16439fd41818e611c9a588339d9268be325325f",
+      "md5": "33e5b6cfff6a951fd2709bf89ef66a68",
+      "zenodo_checksum": "md5:33e5b6cfff6a951fd2709bf89ef66a68",
+      "checksum_matches": true
+    }
+  ],
+  "original_data_modified": false
+}

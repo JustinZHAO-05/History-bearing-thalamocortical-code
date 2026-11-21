@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.npz
+*.db
+*.mat
+*.zip
+*.part
+*.log
+results/
+source_data/
+/research/round3_consciousness/data/
+/research/final_round/revision_2026_11_15/execution.json
+/runs/

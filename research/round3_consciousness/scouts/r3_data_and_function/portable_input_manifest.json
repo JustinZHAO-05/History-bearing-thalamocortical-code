@@ -1,0 +1,54 @@
+{
+  "purpose": "Exact inputs and environment for unchanged biology and position-mixture scripts",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "h5py": "3.16.0"
+  },
+  "model_database_sha256": {
+    "TBPTT_bio_Gtune_valid/RateRNNstructNUM20.db": "073c8cbb5c99e21adc2e520675dd14f4c6506a4030426248819fc3772eb70112",
+    "TBPTT_bio_Gtune_valid/RateRNNstructNUM22.db": "cb240c3cec87f6e9cae962160fed8e8ab1a2aa8802ef9d1871d74bfdd6f3356b",
+    "TBPTT_bio_Gtune_valid/RateRNNstructNUM23.db": "bd5dcfc15ecb5d62dc17b97a478129d12a869525aa0f0c6b5f19558dcc828b5e",
+    "TBPTT_bio_Gtune_valid/RateRNNstructNUM24.db": "a7c3c0ee9079ebcfd4429f91a4f554dd1e99e04700216272489158034ea30372",
+    "TBPTT_bio_Gtune_valid/RateRNNstructNUM25.db": "3fef83a1d2c76f03bda22d2231f8d988edd9662a124ddbcabeb48c5821c04aed",
+    "TBPTT_bio_sussano_valid/RateRNNstructNUM0.db": "83eacb5db7c70da2b787dcefc40e2ed93119fca87734c8a3ac60ab410cd14b65",
+    "TBPTT_bio_sussano_valid/RateRNNstructNUM1.db": "9d77b2dccb8822894324c1a705b3046af256a5647af5ba7c0a2c571aa9c3faf2",
+    "TBPTT_bio_sussano_valid/RateRNNstructNUM2.db": "377759f7dc6b8bc414b015693e12ada1e4795965e713efc15daf7b6705392a55",
+    "TBPTT_bio_sussano_valid/RateRNNstructNUM3.db": "b656e26e455775d9f428017edab57c5d2cf5c121bba078d4d554ac7914a465eb"
+  },
+  "biology_mat_sha256": {
+    "Figure 1/PPCSuppEffectsSourceF1.mat": "b895e81971c0f54665b6bd64a61d641cb852b311c0a8b2a02cbb177da4242f95",
+    "Figure 1/PULSuppEffectsSourceF1.mat": "eb6e5498c10bec5123064ee06a6f8a4c4565a45c4db83eb00124f15d8b2b59fc",
+    "Figure 4/4BtoD/TRNActEffectBehavSourceF4.mat": "1b09339a1f88c3ccb4873394cda62fb1ccb8545636d3716622e1fade70984410"
+  },
+  "analysis_code_sha256": {
+    "scouts/r3_data_and_function/analyze_biology.py": "42519ca9d9fcb03dc0047f4fa09e7dca7d169e0b1eb231a93a53cb622c978332",
+    "scouts/r3_data_and_function/analyze_trials.py": "23b794672cd9fb11757059ec0b0758b0e5872f2f65c15d50d86ddb00cb03b7d9",
+    "scouts/r3_data_and_function/analyze_mechanism_v2.py": "648a7eefe926b3d98d1e59ac8b4cf26c38722e01c31c880441e454ab4b0938d2",
+    "scouts/r3_data_and_function/resolve_review.py": "d502cd4025437e439a9fbd08ad45a8fd00809db16087a564dc8242df28433063",
+    "scouts/r3_data_and_function/plot_biology.py": "326128bf80482940e506644d50b22c559348d8ecddce05bd1ed3f19e3e61391c",
+    "scouts/r3_data_and_function/fetch_biology_sources.py": "e840c1f5c2a85426316cdfae90f03492aca89539e4370e9a9ab954c17904b4df",
+    "scouts/r3_data_and_function/position_mixture_stress.py": "2b1bbd3d5cf4420c1230f589d8c010a324b6ddb73421023ef94491e3cc7b37e4",
+    "scouts/r3_data_and_function/analyze_position_mixture_stress.py": "6edbe1a907b153f05c5132e9def1e146ef6887d8ae455d98f500752820b6896d",
+    "code/rnn_core.py": "c36c088f5d0dc3b69a8e8220720300b264f95eb297fe3991182847a67a654dc0",
+    "code/sequential_access.py": "eb83e0bec23329320e2621412a48164ec802fe17cd362441753323b52c87e6db",
+    "code/cognitive_causal.py": "7958aeb89cfa0722fd687fd9e9ffd8046663b59f44bbb90246f417a9c4b8a106"
+  },
+  "author_source_sha256": "274c7a310c0878ec6f27af9ede18b8f812a52418e3f7223cea97711a6df2b235",
+  "audit_code_sha256": {
+    "reviews/independent_audit/residual_addback_confirmation.py": "2601f4e1c93c6ff12eee99aa159aea5cd1eab4305888b161105c59197d6c419f",
+    "reviews/independent_audit/audit_saved_outputs.py": "98bf37e3667ae195610174063b2b99153bc70d6a99b56a429646f5c3a88a952e",
+    "reviews/independent_audit/rank_one_control.py": "c849973880f157c03de02d5c98f59999848a853050e473c631de8e364b24814d",
+    "reviews/independent_audit/write_manuscript_final_audit.py": "aaee251c2d9836cf5895a60b0ad3b5bf6f88d16911defd7bcdcc0bdfcca43402",
+    "reviews/independent_audit/build_residual_report.py": "9eb839580c235d71b51a859a97f493d977a3732b4963c53829f1fe0ce1a47ba4",
+    "reviews/independent_audit/saturation_counterexample.py": "b45a86249097e70e6dadb73e73f2afcda4a62920f5501213d1655fcbc16e8b01",
+    "reviews/independent_audit/rank_one_uplift_control.py": "871c02323182519292ea7d1a4059437bc08ddc14d2237ca97836afbe9d6b58c2",
+    "reviews/independent_audit/manuscript_audit_checks.py": "3f707e83f2a698dc3f78f9940fde990bc97c40a437ca9be517761e2294b9bc19",
+    "reviews/independent_audit/scalar_clipped_control.py": "1a8eaaa9f5994e4ecc7c476d7f8875a853a785bb0e8f3a1cb8e22b1bc6f49989",
+    "reviews/independent_audit/summarize_rank_one.py": "aa22d86bf594d9b24092f3887ea11e1e9e5168e07ffa9a357fdf24b84600c5b6",
+    "reviews/independent_audit/build_audit_report_pre_addback.py": "5fdf8a578123478272234762a3f704c59d847265a31207fa33182aea3a2cfbcc",
+    "reviews/independent_audit/build_audit_report.py": "019420cc25758a01d93407c52e316d5a43f6f471baace2c8bcba1f534a35a182"
+  }
+}
